@@ -1,0 +1,45 @@
+.product {
+  display: flex;
+  
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.proCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(238, 238, 233);
+  align-items: center;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+.card-body {
+  align-items: center;
+}
+.catBtn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+}
+
+.proCard {
+  display: flex;
+
+  justify-content: center;
+  background-color: rgb(238, 238, 233);
+  width: calc(100% - 20px) / 4;
+  margin: auto;
+}
+
+.pro {
+  height: 500px;
+}
